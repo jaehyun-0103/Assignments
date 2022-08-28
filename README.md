@@ -77,7 +77,7 @@
 
 ## 변수 설명
 
-### 음료수
+#### 음료수
     water = 0 / daily = 4 / corn = 8 / cantata = 3 / trevi = 3 / milkis = 9 / pepsi = 10 /
     hotsix = 1 / cider = 8 / mango = 4 / lipton = 7 / apple = 4 / grape = 6 / gana = 5 /
     be = 0 / latte = 3 / cafe = 2 / gatorade = 4 / coco = 4 / rice = 10
