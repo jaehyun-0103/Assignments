@@ -1,5 +1,4 @@
-# Assignments_1
-1학년 1학기 과제
+# Assignments_1 1학년 1학기 과제
 ---
 
 ## 목차
