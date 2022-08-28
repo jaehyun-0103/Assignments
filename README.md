@@ -125,10 +125,15 @@ RGP 칼라 모델로 이미지를 출력하기 위해서 PPM(portable pixel map�
     
 ## 함수
     · Create() : 새로운 empty 큐 생성한다.
+    
     · Empty() : 큐가 empty 인지 확인한다.
+    
     · Full() : 큐가 full 인지 확인한다.
+    
     · Enqueuer() : 새로운 데이터를 queue rear에 삽입한다.
+    
     · Dequeuer() : front에 위치한 데이터 삭제하고 리턴하여 출력한다.
+    
     · QueueDisplay() : 큐에 저장된 모든 데이터 출력한다. 만약 empty일 경우 메시지 출력한다.
     
 ---
