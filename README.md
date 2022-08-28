@@ -102,7 +102,8 @@ shade of grey = {(elevation – minimumElevation)/(maximumElevation – minimumE
     · 두번째 줄 : width (number of column) 과 height (number of rows) 
     · 세번째 줄 : max color value (255) 
     · 나머지 줄 : RGB 값 예
-    · ppm 파일 변환 사이트 : [Converter](https://convertio.co/kr/ppm-jpg/)
+    · ppm 파일 변환 사이트
+   [Converter](https://convertio.co/kr/ppm-jpg/)
 
 ---
    
