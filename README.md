@@ -64,7 +64,7 @@
 ## 자판기
 
 아래 이미지를 참고하여 자판기 프로그램을 만드시오.
-![IMG_6364](https://user-images.githubusercontent.com/80446951/187058443-09685318-97ca-40a9-9cc9-4a35c7d515c8.JPG)
+![IMG_6364](https://user-images.githubusercontent.com/80446951/187058489-44368217-663f-404d-a897-5fe9e4b33f65.JPG)
 
 ### 조건
     1. 1000원짜리 지폐를 받을 수 있고, 100원짜리와 500원짜리도 받을 수 있다.
