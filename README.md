@@ -68,11 +68,11 @@
 
 입력 받은 데이터를 RGB 값으로 계산한 이후 새로운 이미지 파일을 생성하여 이를 출력하는 프로그램으로 플로우는 다음과 같다.
 
-1. Read the data into a 2D array 
-2. Find min and max elevation to correspond to darkest and brightest color, respectively 
-3. Compute the shade of grey for each cell in the map 
-4. Produce the output file in the specified format (PPM) 
-5. Use an online free tool to convert your PPM file into a JPG file to visually check your results
+1. 데이터를 2D 배열로 읽습니다.
+2. 각각 가장 어두운 색과 가장 밝은 색에 해당하는 최소 및 최대 표고를 찾습니다.
+3. 지도에 있는 각 셀에 대해 회색 음영을 계산합니다.
+4. 출력 파일을 지정된 형식(PPM)으로 생성합니다.
+5. 온라인 무료 도구를 사용하여 PPM 파일을 JPG 파일로 변환하여 결과를 시각적으로 확인합니다.
 
 1. Step 1 – Read the data into a 2D array 
 입력데이터는 텍스트 파일로 지표면의 고도를 나타낸다. 입력데이터에는 3가지 정보가 제공되는데, 
