@@ -229,7 +229,7 @@ calculateTotalAmount(inventory)
 
 ---
     
-## infix to postfix
+## infix to posfix
     
 중위표기법으로 입력된 수식을 후위표기법으로 변환시켜 수식계산을 하는 프로그램을 작성하시오.
 
