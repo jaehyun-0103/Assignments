@@ -34,20 +34,14 @@
 ## infix to postfix
 중위표기법으로 입력된 수식을 후위표기법으로 변환시켜 수식계산을 하는 프로그램을 작성하시오.
 
----
-
 초기알고리즘
 1. 수식 문자열을 입력
 2. Parsing을 통해 수식문법 확인
 3. 중위표기법을 후위표기법으로 스택을 사용하여 변환
 4. 후위표기법 계산
 
----
-
 설명
 키보드를 통해 수식문자열을 입력하면 입력되는 문자열을 저장하여 수식문법에 맞는지 확인한후 틀렸을 경우 에러 메시지를 출력하고 재입력을 요구한다. 문법에 맞는 수식이 입력되었을 경우, 스택을 활용하여 이를 후위표기법을 변환시킨후 이를 이용하여 계산한다.
-
----
 
 수식문법
 1. 오픈 괄호 " ( " 다음에 반드시 " ( " 나 피연산자, 즉 숫자, " + ", " - "가 온다.
@@ -55,8 +49,6 @@
 3. " ( " 와 " ) " 개수는 일치하여야 한다
 4. " ( ", " ) ", 숫자, " + ", " - ", " * ", " / " , " ^ " 외 다른 기호는 에러로 처리한다.
 5. 피연산는 정수 및 실수이며 실수의 경우 소수점이 포함된다.
-
----
 
 프로그램 동작
 수식 문자열 입력 -> 수식문자열 문법확인 -> 중위-후위표기 변환 -> 후위계산
@@ -70,8 +62,6 @@
 설명
 프로그램은 다음과 같은 기능을 사용자에게 제공하여야 함.
 
----
-
 입력기능
 1. 서점의 재고는 파일에 저장되어 있으며, 이 파일의 데이터를 입력 받아 프로그램이 동작
 사용자 서비스 기능
@@ -82,8 +72,6 @@
 6. 특정 서적의 재고 숫자 변경
 7. 재고에 있는 전체 서적의 재고 숫자 출력
 8. 재고에 있는 서적들에 대한 전체 가격 출력
-
----
 
 규칙
 1. 메인 함수는 아래의 알고리즘으로 작성되어야 함. 작성시 아래 메인함수에 다른 기능이나 파라메타의 변경이 없어야 함.
@@ -126,18 +114,12 @@ int main(void) {
 }
 ```
 
----
-
 2. 전체 프로그램에 대해 재고를 저장하기 위한 자료구조(theInventory)는 하나만 선언하여야 하고 메인함수에서 선언하여야 함. theInventory는 구조체 일차원배열로 구조체는 작가의 이름(last name, first name)과 이 작가의 서적정보를 담는 연결리스트의 주조를 저장할 변수를 포함하여야 함. 작가의 이름은 저장하기 전, last name과 first name의 첫번째 알파벳만 대문자이고 나머진 소문자로 나타내어야 함. 서적 정보를 저장할 연결리스트는 서적명, 재고량, 서적당 가격과 다음 노드를 가르킬 포인터 변수를 포함하는 자기 참조 구조체
 가 필요함.
-
----
 
 3. 함수의 정의는 아래와 같고 매개변수 변경은 불가능함. 아래 함수 외 다른 함수 정의는
 가능하나 아래 정의된 함수에서만 호출이 가능하고, 메인에서의 호출은 불가능함. 또한, 전
 역변수 사용은 금지함.
-
----
 
 함수정의
 greeting()
@@ -182,25 +164,17 @@ calculateTotalAmount(inventory)
 4. Produce the output file in the specified format (PPM) 
 5. Use an online free tool to convert your PPM file into a JPG file to visually check your results
 
----
-
 1. Step 1 – Read the data into a 2D array 
 입력데이터는 텍스트 파일로 지표면의 고도를 나타낸다. 입력데이터에는 3가지 정보가 제공되는데, 
 A. Number of rows in the map (height of the image to be produced) 
 B. Number of columns in the map (width of the image to be produced) 
 C. Name of the file containing the data.
 
----
-
 데이터를 입력 받기 전 입력이 정상적인지 아닌지 확인이 필요한데, 만약 입력에 오류가 존재한다면, 다음과 같은 출력을 하면서 프로그램에서 exit 하여야 한다. 
  Error : Problem reading in rows and columns 
  Error : Unable to open file <filename>
 
----
-
 데이터 파일은 스페이스로 구별되는 정수들이며 하나의 데이터 집합이다. 480-row by 844-col 데이터는 405,120 (480*844) 정수들을 포함하며, 정수 각각은 한 특정지역(cell)의 평균고도를 나타낸다. 데이터 파일은 row0 에 대해 844 정수들, row 1 에 대한 844 정수들 등 row-major 순서로 만들어졌다.
-
----
 
 입력을 받아 프로세스를 하기 전에 파일에 올바른 개수의 정수 데이터가 있는지 확인이 필요하며 만약 오류가 있다면 즉시 필요한 오류를 출력하고 프로그램에서 exit 하여야한다. 
  Error : Read a non-integer value 
@@ -208,35 +182,21 @@ C. Name of the file containing the data.
  Error : End of file reached prior to getting all the required data 
  Error : Too many data points
 
----
-
 데이터 파일은 line break가 없으며 데이터를 2D array에 넣기 위해서는 파일에서 제공하는 row 외 column 값을 사용하여야 한다. 또한, 오류 없이 데이터가 입력되었는지 확인하기 위하여 제공되는 데이터 파일은 사이즈가 크기 때문에 작은 사이즈의 입력 파일을 만들어 충분한 테스트를 거쳐야 한다. 
-
----
 
 2. Step 2 – Find the min and max values 
 주어진 입력을 흑백 이미지로 출력하기 위하여 입력된 데이터에서 최소값(min)과 최대값(max)를 찾고 주어진 공식에 대입하면 된다. 이를 위해 먼저, 최소값과 최대값을 찾기 위한 함수 findMaxMin를 작성하여야 한다. 샘플 데이터를 만들어 이 함수가 올바르게 작동되는지 충분히 검토한 후 step 3로 이동하여야 한다. 
-
----
 
 3. Step 3 – Compute the color for each part of the map and store 
 입력 데이터를 흑백이미지로 출력하기 위하여 입력 데이터 각각에 대한 RGB 값을 계산하여야
 한다. 이때 흑백출력임으로 각 데이터에 대하여, 다음 공식을 적용하고 실수로 계산하여 가장
 근사한 정수로 변환시키면 된다.
 
----
-
 shade of grey = {(elevation – minimumElevation)/(maximumElevation – minimumElevation)}*255
-
----
 
 또한, 계산된 정수값을 R, G, B 값으로 동일하게 적용하면 된다. 이때 새로운 2D array를 만들어 계산된 RGB 값을 저장하여야 한다.
 
----
-
 위와 같이 고도값(elevation value)에서 흑백 이미지 값으로 변환시키는 프로세스는 loadGreyscale 함수를 만들어 수행해야 한다. 
-
----
 
 4. Step 4 – Produce the output file in the PPM format 
 RGP 칼라 모델로 이미지를 출력하기 위해서 PPM(portable pixel map의 약자) format으로 output 파일을 만들어야 하며 이를 위해 outputImage 함수를 만들어 PPM 데이터를 output file로 wirte하시오. PPM 포멧으로 output file을 만드는 방법은 output file에 RGB 값을 쓰기 전에 세 가지 정보를 write 하면 되고 output file의 이름을 inputfile name.ppm로 만들면 된다. 즉, 만약 input file 명이 indata.dat라면, input.dat.ppm으로 이름을 만들어야 하며 다음 ppm 파일을 만드는 포멧은 다음과 같다.
@@ -252,7 +212,7 @@ RGP 칼라 모델로 이미지를 출력하기 위해서 PPM(portable pixel map�
 ---
 
 객체지향언어
-➢ JH_ATM2 (2022.05.06.)
+➢ JH_ATM
 - 계좌 개설 기능
 - 계좌 조회 기능
 - 계좌 해지 기능
