@@ -121,9 +121,8 @@ RGP 칼라 모델로 이미지를 출력하기 위해서 PPM(portable pixel map�
     
 1차원 배열을 이용한 원형큐를 구현하시오.
 
----
     
-## 함수
+### 함수
     · Create() : 새로운 empty 큐 생성한다.
     
     · Empty() : 큐가 empty 인지 확인한다.
