@@ -103,7 +103,7 @@ shade of grey = {(elevation – minimumElevation)/(maximumElevation – minimumE
     · 세번째 줄 : max color value (255) 
     · 나머지 줄 : RGB 값 예
     · ppm 파일 변환 사이트
-   [Converter](https://convertio.co/kr/ppm-jpg/)
+[Converter](https://convertio.co/kr/ppm-jpg/)
 
 ---
    
