@@ -64,56 +64,45 @@
 
 ## ppm 이미지 표현
 
-지표면의 고도를 나타내는 데이터를 입력 받아 이미지로 표현하는 프로그램을 작성하시오.
+지표면의 고도를 나타내는 데이터를 입력 받아 RGB 값으로 계산한 이후 이미지로 표현하는 프로그램을 작성하시오.
 
-입력 받은 데이터를 RGB 값으로 계산한 이후 새로운 이미지 파일을 생성하여 이를 출력하는 프로그램으로 플로우는 다음과 같다.
+### 예외처리
+    · Error : Problem reading in rows and columns 
+    · Error : Unable to open file <filename>
+    · Error : Read a non-integer value 
+    · Error : Problem reading the file 
+    · Error : End of file reached prior to getting all the required data 
+    · Error : Too many data points
 
-1. 데이터를 2D 배열로 읽습니다.
-2. 각각 가장 어두운 색과 가장 밝은 색에 해당하는 최소 및 최대 표고를 찾습니다.
-3. 지도에 있는 각 셀에 대해 회색 음영을 계산합니다.
-4. 출력 파일을 지정된 형식(PPM)으로 생성합니다.
-5. 온라인 무료 도구를 사용하여 PPM 파일을 JPG 파일로 변환하여 결과를 시각적으로 확인합니다.
+### 알고리즘
 
-1. Step 1 – Read the data into a 2D array 
-입력데이터는 텍스트 파일로 지표면의 고도를 나타낸다. 입력데이터에는 3가지 정보가 제공되는데, 
-A. Number of rows in the map (height of the image to be produced) 
-B. Number of columns in the map (width of the image to be produced) 
-C. Name of the file containing the data.
+#### 1단계 – 이차원 배열에서 데이터 읽기
+    데이터 파일은 스페이스로 구별되는 정수들이며 하나의 데이터 집합이다.
+    정수들은 각각은 한 특정지역의 평균고도를 나타낸다.
 
-데이터를 입력 받기 전 입력이 정상적인지 아닌지 확인이 필요한데, 만약 입력에 오류가 존재한다면, 다음과 같은 출력을 하면서 프로그램에서 exit 하여야 한다. 
- Error : Problem reading in rows and columns 
- Error : Unable to open file <filename>
+#### 2단계 – 각각 가장 어두운 색과 가장 밝은 색에 해당하는 최소값 및 최대값 찾기
+    주어진 입력을 흑백 이미지로 출력하기 위하여 입력된 데이터에서 최소값과 최대값를 찾는다.
+    이때 최소값과 최대값을 찾기 위해 findMaxMin() 함수를 작성하여야 한다.
 
-데이터 파일은 스페이스로 구별되는 정수들이며 하나의 데이터 집합이다. 480-row by 844-col 데이터는 405,120 (480*844) 정수들을 포함하며, 정수 각각은 한 특정지역(cell)의 평균고도를 나타낸다. 데이터 파일은 row0 에 대해 844 정수들, row 1 에 대한 844 정수들 등 row-major 순서로 만들어졌다.
+#### 3단계 – 지도에 있는 각 영역에 대해 회색 음영을 계산
+    입력 데이터를 흑백이미지로 출력하기 위하여 입력 데이터 각각에 대한 RGB 값을 계산한다.
+    이때 흑백출력임으로 각 데이터에 대하여, 다음 공식을 적용하고 실수로 계산하여 가장 근사한 정수로 변환시킨다.
+    또한, 계산된 정수값을 R, G, B 값으로 동일하게 적용한다. 이때 새로운 이차원 배열을 만들어 계산된 RGB 값을 저장하여야 한다.
+    위와 같이 고도값에서 흑백 이미지 값으로 변환시키는 과정은 loadGreyscale() 함수를 만들어 수행해야 한다.
+```
+shade of grey = {(elevation – minimumElevation)/(maximumElevation – minimumElevation)} * 255
+```
 
-입력을 받아 프로세스를 하기 전에 파일에 올바른 개수의 정수 데이터가 있는지 확인이 필요하며 만약 오류가 있다면 즉시 필요한 오류를 출력하고 프로그램에서 exit 하여야한다. 
- Error : Read a non-integer value 
- Error : Problem reading the file 
- Error : End of file reached prior to getting all the required data 
- Error : Too many data points
+#### 4단계 – 출력 파일을 지정된 형식(PPM)으로 생성
+    RGP 칼라 모델로 이미지를 출력하기 위해서 PPM format으로 output 파일을 만든다.
+    이를 위해 outputImage() 함수를 만들어 PPM 데이터를 output file 로 wirte 한다.
 
-데이터 파일은 line break가 없으며 데이터를 2D array에 넣기 위해서는 파일에서 제공하는 row 외 column 값을 사용하여야 한다. 또한, 오류 없이 데이터가 입력되었는지 확인하기 위하여 제공되는 데이터 파일은 사이즈가 크기 때문에 작은 사이즈의 입력 파일을 만들어 충분한 테스트를 거쳐야 한다. 
-
-2. Step 2 – Find the min and max values 
-주어진 입력을 흑백 이미지로 출력하기 위하여 입력된 데이터에서 최소값(min)과 최대값(max)를 찾고 주어진 공식에 대입하면 된다. 이를 위해 먼저, 최소값과 최대값을 찾기 위한 함수 findMaxMin를 작성하여야 한다. 샘플 데이터를 만들어 이 함수가 올바르게 작동되는지 충분히 검토한 후 step 3로 이동하여야 한다. 
-
-3. Step 3 – Compute the color for each part of the map and store 
-입력 데이터를 흑백이미지로 출력하기 위하여 입력 데이터 각각에 대한 RGB 값을 계산하여야
-한다. 이때 흑백출력임으로 각 데이터에 대하여, 다음 공식을 적용하고 실수로 계산하여 가장
-근사한 정수로 변환시키면 된다.
-
-shade of grey = {(elevation – minimumElevation)/(maximumElevation – minimumElevation)}*255
-
-또한, 계산된 정수값을 R, G, B 값으로 동일하게 적용하면 된다. 이때 새로운 2D array를 만들어 계산된 RGB 값을 저장하여야 한다.
-
-위와 같이 고도값(elevation value)에서 흑백 이미지 값으로 변환시키는 프로세스는 loadGreyscale 함수를 만들어 수행해야 한다. 
-
-4. Step 4 – Produce the output file in the PPM format 
-RGP 칼라 모델로 이미지를 출력하기 위해서 PPM(portable pixel map의 약자) format으로 output 파일을 만들어야 하며 이를 위해 outputImage 함수를 만들어 PPM 데이터를 output file로 wirte하시오. PPM 포멧으로 output file을 만드는 방법은 output file에 RGB 값을 쓰기 전에 세 가지 정보를 write 하면 되고 output file의 이름을 inputfile name.ppm로 만들면 된다. 즉, 만약 input file 명이 indata.dat라면, input.dat.ppm으로 이름을 만들어야 하며 다음 ppm 파일을 만드는 포멧은 다음과 같다.
- 첫번째 줄 : 문자열 “P3” 
- 두번째 줄 : width (number of column) 과 height (number of rows) 
- 세번째 줄 : max color value (255) 
- 나머지 줄 : RGB 값 예
+### ppm 파일을 만드는 포멧
+    · 첫번째 줄 : 문자열 “P3” 
+    · 두번째 줄 : width (number of column) 과 height (number of rows) 
+    · 세번째 줄 : max color value (255) 
+    · 나머지 줄 : RGB 값 예
+    · ppm 파일 변환 사이트 : [Converter](https://convertio.co/kr/ppm-jpg/)
 
 ---
    
