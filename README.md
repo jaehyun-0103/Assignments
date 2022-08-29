@@ -70,7 +70,6 @@
     · Error : Problem reading in rows and columns 
     · Error : Unable to open file <filename>
     · Error : Read a non-integer value 
-    · Error : Problem reading the file 
     · Error : End of file reached prior to getting all the required data 
     · Error : Too many data points
 
