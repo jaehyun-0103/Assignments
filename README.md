@@ -173,22 +173,14 @@
 
 ## 7번
 운송 수단과 운송 수단의 하나인 자동차를 다음과 같이 모델링하려고 한다. 각 클래스의 show() 메서드는 필드 값을 출력한다. 두 클래스를 작성하고 아래 테스트 프로그램 OverrideTest를 실행해서 오버 라이딩된 메서드와 다형성 관계를 살펴보시오.
-Vehicle
-- 필드
-String color; //자동차 색상
-int speed;    //자동차 속도
-- 메서드
-void show()
-- 생성자
-public Vehicle(String, int)
-Car
-- 필드
-int displacement; //자동차 배기량
-int gears;         //자동차 기어 단수
-- 메서드
-void show()
-- 생성자
-public Car(String, int, int, int)
+
+### 모델링
+
+|   | Vehicle | Car |
+|:----------:|:----------:|:----------:|
+| 필드 | String color;, int speed; | int displacement;, int gears;
+| 메서드 | void show() | void show() |
+| 생성자 | public Vehicle(String, int) | public Car(String, int, int, int) |
 
 ### 설명
 
@@ -298,8 +290,8 @@ Hashtable을 이용해 4개의 이름과 점수를 저장하라. 그리고 키�
 # 실습 과제d
 
 ## 16번
-16+Nation
-Nation,nations 리스트에서 육지에 있는 나라 이름을 콤마와 공백(“, ”)으로 연결하여 수집한 후 출력하는 프로그램을 작성하라.
+
+Nation, nations 리스트에서 육지에 있는 나라 이름을 콤마와 공백(“, ”)으로 연결하여 수집한 후 출력하는 프로그램을 작성하라.
 
 ### 설명
 
@@ -352,23 +344,36 @@ Nation,nations 리스트에서 육지에 있는 나라 이름을 콤마와 공�
 
 # 단순선형회귀
 
+
+---
+
 # 다중선형회귀1
 
 직접 구현, 넘파이
+
+
+---
 
 # 다중선형회귀2
 
 linear_model 모듈 사용, 판다스
 
+---
+
 # 다중선형회귀3
 
 직접 구현, 판다스, 데이터 병합
+
+---
 
 # 다중선형회귀4
 
 linear_model 모듈 사용, 판다스, 데이터 병합
 
+---
+
 # KNN
 
 k-
 
+---
