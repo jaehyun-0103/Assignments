@@ -6,6 +6,7 @@ f.close()
 
 x=[]
 y=[]
+
 for i in range(1, len(data)):
     (x_data, y_data) = data[i].split('\t', maxsplit = 2)
     y_data = y_data.replace(',','.')
