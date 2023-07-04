@@ -56,5 +56,4 @@
 
 # 백준
 
-[백준 주소](https://www.acmicpc.net/user/jaehyun_0103)
 
