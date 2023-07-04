@@ -1,4 +1,5 @@
 import math
+
 f = open("./Simple_Linear_Regression_Practice_Data.txt", 'r', encoding='utf-8')
 data = f.readlines()
 f.close()
