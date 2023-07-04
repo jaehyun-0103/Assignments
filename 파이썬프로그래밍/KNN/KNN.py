@@ -48,13 +48,27 @@ def train_test_split(X, Y, test_size=0.25, random=False, random_seed=None):
         y_test = y[test_indices]
     return x_train, x_test, y_train, y_test
 
+def accuracy(y_true, y_pred):
+    correct = np.sum(y_true == y_pred)
+    total = len(y_true)
+    accuracy = correct / total
+    return accuracy
+
 Y = data['class']
 X = data.drop(['class'], axis=1)
 
 x_train, x_test, y_train, y_test = train_test_split(X, Y, test_size=0.3, random=True, random_seed = 3)
 
-A = [6, 3.4, 4, 2]
+y_pred = []
 
-pred=search_neighbors(x_train, A, k=5)
-for i in range(5):
-    print(Y[pred[i][2]])
+for test_sample in x_test:
+    neighbors = search_neighbors(x_train, test_sample, k=5) # x_train에 가까운 5개 탐색
+    neighbor_labels = y_train[[int(neighbor[2]) for neighbor in neighbors]] # 이웃들의 y 값을 neighbor_labels에 저장
+    unique_labels, counts = np.unique(neighbor_labels, return_counts=True) # y 값의 각 개수 파악
+    predicted_label = unique_labels[np.argmax(counts)] # 가장 많은 y 값을 predicted_label에 저장
+    y_pred.append(predicted_label) # predicted_label을 y_pred 배열에 저장
+
+# 정확도 계산
+accuracy_score = accuracy(y_test, y_pred)
+accuracy_percentage = accuracy_score * 100
+print("Accuracy: {:.2f}%".format(accuracy_percentage))
