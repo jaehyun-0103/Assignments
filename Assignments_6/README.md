@@ -198,7 +198,7 @@
 
 ## 결과
 
-<img src = "https://github.com/jaehyun-0103/Assignments/assets/80446951/aa90e24d-f421-4bc0-b965-9594e40928e0" width="60%" height=60%>
+<img src = "https://github.com/jaehyun-0103/Assignments/assets/80446951/f1a6c4ed-a567-43d8-8d81-c8ec2f098f20" width="60%" height=60%>
 
 <img src = "https://github.com/jaehyun-0103/Assignments/assets/80446951/c8b6cfa1-0344-4fe5-bb9d-7a5cedd3c1a2" width="60%" height=60%>
 
