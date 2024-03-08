@@ -45,7 +45,7 @@
  
 ## 결과
 ### 탈출 가능
-<img src = "https://github.com/jaehyun-0103/Assignments_6/assets/80446951/994c87b3-f0c2-467a-8dc1-86fedc8b9f55.jpg" width="90%" height=90%>
+<img src = "https://github.com/jaehyun-0103/Assignments/assets/80446951/994c87b3-f0c2-467a-8dc1-86fedc8b9f55.jpg" width="90%" height=90%>
 
 <img src = "https://github.com/jaehyun-0103/Assignments_6/assets/80446951/ca566bd1-2cb4-46a3-b207-f6518527b2cd.jpg" width="90%" height=90%>
 
@@ -83,7 +83,7 @@
 3. 감상평은 회원만 작성 가능
 
 ## 시나리오
-<img src = "https://github.com/jaehyun-0103/Assignments_6/assets/80446951/d34d3a5e-f282-4584-b87c-1fdb9d968b92.jpg" width="85%" height=85%>
+<img src = "https://github.com/jaehyun-0103/Assignments/assets/80446951/981a87d1-c861-4e9a-b8a4-0577905c43a4" width="85%" height=85%>
 
 ## ERD
 <img src = "https://github.com/jaehyun-0103/Assignments_6/assets/80446951/51d74b90-61b8-445a-8729-b9e9cd2c3377.jpg" width="100%" height=100%>
