@@ -1,145 +1,50 @@
 # 📅 대학교 과목
 
-# 1학년 1학기
+### 👶 1학년 1학기
 
-### 전산학기초
+|        | 개발환경 | 기술 스택 |
+|:----------:|:---------|:---------|
+|전산학기초|<img src="https://img.shields.io/badge/anaconda-44A833?style=for-the-badge&logo=anaconda&logoColor=white">|<img src="https://img.shields.io/badge/python-3776AB?style=for-the-badge&logo=python&logoColor=white">|
+|프로그래밍기초|<img src="https://img.shields.io/badge/python Idle-3776AB?style=for-the-badge&logo=python&logoColor=white">|<img src="https://img.shields.io/badge/python-3776AB?style=for-the-badge&logo=python&logoColor=white">|
 
-#### 개발환경
-<img src="https://img.shields.io/badge/anaconda-44A833?style=for-the-badge&logo=anaconda&logoColor=white">
+### 👶 1학년 2학기
 
-#### 기술스택
-<img src="https://img.shields.io/badge/python-3776AB?style=for-the-badge&logo=python&logoColor=white">
+|        | 개발환경 | 기술 스택 |
+|:----------:|:---------|:---------|
+|프로그래밍|<img src="https://img.shields.io/badge/visual studio-5C2D91?style=for-the-badge&logo=visualstudio&logoColor=white">|<img src="https://img.shields.io/badge/c-A8B9CC?style=for-the-badge&logo=c&logoColor=white">|
 
-### 프로그래밍기초
+### 👦 2학년 1학기
 
-#### 개발환경
-<img src="https://img.shields.io/badge/python Idle-3776AB?style=for-the-badge&logo=python&logoColor=white">
+|        | 개발환경 | 기술 스택 |
+|:----------:|:---------|:---------|
+|객체지향언어|<img src="https://img.shields.io/badge/visual studio-5C2D91?style=for-the-badge&logo=visualstudio&logoColor=white">|<img src="https://img.shields.io/badge/c++-00599C?style=for-the-badge&logo=c%2B%2B&logoColor=white">|
+|자료구조|<img src="https://img.shields.io/badge/visual studio-5C2D91?style=for-the-badge&logo=visualstudio&logoColor=white">|<img src="https://img.shields.io/badge/c-A8B9CC?style=for-the-badge&logo=c&logoColor=white">|
 
-#### 기술스택
-<img src="https://img.shields.io/badge/python-3776AB?style=for-the-badge&logo=python&logoColor=white">
+### 👦 2학년 2학기
 
+|        | 개발환경 | 기술 스택 |
+|:----------:|:---------|:---------|
+|데이터베이스|<img src="https://img.shields.io/badge/mysql-4479A1?style=for-the-badge&logo=mysql&logoColor=white">|<img src="https://img.shields.io/badge/sql-4169E1?style=for-the-badge">|
+|자바|<img src="https://img.shields.io/badge/intellij idea-000080?style=for-the-badge&logo=intellijidea&logoColor=white">|<img src="https://img.shields.io/badge/java-007396?style=for-the-badge">|
+|파이썬프로그래밍|<img src="https://img.shields.io/badge/jupyter-F37626?style=for-the-badge&logo=jupyter&logoColor=white">|<img src="https://img.shields.io/badge/python-3776AB?style=for-the-badge&logo=python&logoColor=white">|
 
-# 1학년 2학기
+### 👨 3학년 1학기
 
-### 프로그래밍
+|        | 개발환경 | 기술 스택 |
+|:----------:|:---------|:---------|
+|모바일프로그래밍|<img src="https://img.shields.io/badge/android studio-34A853?style=for-the-badge&logo=androidstudio&logoColor=white">| <img src="https://img.shields.io/badge/kotlin-7F52FF?style=for-the-badge&logo=kotlin&logoColor=white"> <img src="https://img.shields.io/badge/firebase-FFCA28?style=for-the-badge&logo=firebase&logoColor=white"> <br> <img src="https://img.shields.io/badge/git-F05032?style=for-the-badge&logo=git&logoColor=white"> <img src="https://img.shields.io/badge/notion-000000?style=for-the-badge&logo=notion&logoColor=white">|
+|백준 자바 스터디|<img src="https://img.shields.io/badge/intellij idea-000080?style=for-the-badge&logo=intellijidea&logoColor=white">|<img src="https://img.shields.io/badge/java-007396?style=for-the-badge"> <img src="https://img.shields.io/badge/notion-000000?style=for-the-badge&logo=notion&logoColor=white">|
+|인공지능|<img src="https://img.shields.io/badge/google colab-F9AB00?style=for-the-badge&logo=googlecolab&logoColor=white">|<img src="https://img.shields.io/badge/python-3776AB?style=for-the-badge&logo=python&logoColor=white">|
 
-#### 개발환경
-<img src="https://img.shields.io/badge/visual studio-5C2D91?style=for-the-badge&logo=visualstudio&logoColor=white">
+### 👨 3학년 2학기
 
-#### 기술스택
-<img src="https://img.shields.io/badge/c-A8B9CC?style=for-the-badge&logo=c&logoColor=white">
+|        | 개발환경 | 기술 스택 |
+|:----------:|:---------|:---------|
+|알고리즘|<img src="https://img.shields.io/badge/visual studio-5C2D91?style=for-the-badge&logo=visualstudio&logoColor=white">|<img src="https://img.shields.io/badge/c-A8B9CC?style=for-the-badge&logo=c&logoColor=white">|
+|웹서비스프로그래밍|<img src="https://img.shields.io/badge/eclipse-2C2255?style=for-the-badge&logo=eclipse&logoColor=white">| <img src="https://img.shields.io/badge/jsp-CF4A0C?style=for-the-badge"> <img src="https://img.shields.io/badge/h2-4479A1?style=for-the-badge"> <img src="https://img.shields.io/badge/html5-E34F26?style=for-the-badge&logo=html5&logoColor=white"><img src="https://img.shields.io/badge/css-1572B6?style=for-the-badge&logo=css3&logoColor=white"> <br> <img src="https://img.shields.io/badge/javascript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black"> <img src="https://img.shields.io/badge/bootstrap-7952B3?style=for-the-badge&logo=bootstrap&logoColor=white">|
+|컴퓨터네트워크|<img src="https://img.shields.io/badge/visual studio-5C2D91?style=for-the-badge&logo=visualstudio&logoColor=white">|<img src="https://img.shields.io/badge/c-A8B9CC?style=for-the-badge&logo=c&logoColor=white">|
 
-
-# 2학년 1학기
-
-### 객체지향언어
-
-#### 개발환경
-<img src="https://img.shields.io/badge/visual studio-5C2D91?style=for-the-badge&logo=visualstudio&logoColor=white">
-
-#### 기술스택
-<img src="https://img.shields.io/badge/c++-00599C?style=for-the-badge&logo=c%2B%2B&logoColor=white">
-
-### 자료구조
-
-#### 개발환경
-<img src="https://img.shields.io/badge/visual studio-5C2D91?style=for-the-badge&logo=visualstudio&logoColor=white">
-
-#### 기술스택
-<img src="https://img.shields.io/badge/c-A8B9CC?style=for-the-badge&logo=c&logoColor=white">
-
-
-# 2학년 2학기
-### 데이터베이스
-
-#### 개발환경
-<img src="https://img.shields.io/badge/mysql-4479A1?style=for-the-badge&logo=mysql&logoColor=white">
-
-#### 기술스택
-<img src="https://img.shields.io/badge/sql-4169E1?style=for-the-badge">
-
-### 자바
-
-#### 개발환경
-<img src="https://img.shields.io/badge/intellij idea-000080?style=for-the-badge&logo=intellijidea&logoColor=white">
-
-#### 기술스택
-<img src="https://img.shields.io/badge/java-007396?style=for-the-badge">
-
-
-### 파이썬프로그래밍
-
-#### 개발환경
-<img src="https://img.shields.io/badge/jupyter-F37626?style=for-the-badge&logo=jupyter&logoColor=white">
-
-#### 기술스택
-<img src="https://img.shields.io/badge/python-3776AB?style=for-the-badge&logo=python&logoColor=white">
-
-
-# 3학년 1학기
-
-### 모바일프로그래밍
-
-#### 개발환경
-<img src="https://img.shields.io/badge/android studio-34A853?style=for-the-badge&logo=androidstudio&logoColor=white">
-
-#### 기술스택
-<div style="display:flex; justify-content: center;">
- <img src="https://img.shields.io/badge/kotlin-7F52FF?style=for-the-badge&logo=kotlin&logoColor=white">
- <img src="https://img.shields.io/badge/firebase-FFCA28?style=for-the-badge&logo=firebase&logoColor=white">
- <img src="https://img.shields.io/badge/git-F05032?style=for-the-badge&logo=git&logoColor=white">
- <img src="https://img.shields.io/badge/notion-000000?style=for-the-badge&logo=notion&logoColor=white">
-</div>
-
-### 백준 자바 스터디
-
-#### 개발환경
-<img src="https://img.shields.io/badge/intellij idea-000080?style=for-the-badge&logo=intellijidea&logoColor=white">
-
-#### 기술스택
-<img src="https://img.shields.io/badge/java-007396?style=for-the-badge">
-<img src="https://img.shields.io/badge/notion-000000?style=for-the-badge&logo=notion&logoColor=white">
-
-### 인공지능
-
-#### 개발환경
-<img src="https://img.shields.io/badge/google colab-F9AB00?style=for-the-badge&logo=googlecolab&logoColor=white">
-
-#### 기술스택
-<img src="https://img.shields.io/badge/python-3776AB?style=for-the-badge&logo=python&logoColor=white">
-
-# 3학년 2학기
-
-### 알고리즘
-
-#### 개발환경
-<img src="https://img.shields.io/badge/visual studio-5C2D91?style=for-the-badge&logo=visualstudio&logoColor=white">
-
-#### 기술스택
-<img src="https://img.shields.io/badge/c-A8B9CC?style=for-the-badge&logo=c&logoColor=white">
- 
-### 웹서비스프로그래밍
-
-#### 개발환경
-<img src="https://img.shields.io/badge/eclipse-2C2255?style=for-the-badge&logo=eclipse&logoColor=white">
-
-#### 기술스택
-<div style="display:flex; justify-content: center;">
- <img src="https://img.shields.io/badge/jsp-CF4A0C?style=for-the-badge">
- <img src="https://img.shields.io/badge/h2-4479A1?style=for-the-badge">
- <img src="https://img.shields.io/badge/html5-E34F26?style=for-the-badge&logo=html5&logoColor=white">
- <img src="https://img.shields.io/badge/css-1572B6?style=for-the-badge&logo=css3&logoColor=white">
- <img src="https://img.shields.io/badge/javascript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black">
- <img src="https://img.shields.io/badge/bootstrap-7952B3?style=for-the-badge&logo=bootstrap&logoColor=white">
-</div>
-
-### 컴퓨터네트워크
-
-#### 개발환경
-<img src="https://img.shields.io/badge/visual studio-5C2D91?style=for-the-badge&logo=visualstudio&logoColor=white">
-
-#### 기술스택
-<img src="https://img.shields.io/badge/c-A8B9CC?style=for-the-badge&logo=c&logoColor=white">
+### 👴 4학년 1학기
 
 ---
 
