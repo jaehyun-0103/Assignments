@@ -1,34 +1,149 @@
 # 📅 대학교 과목
 
-# 1-1학기
- - 전산학기초
- - 프로그래밍기초
+# 1학년 1학기
 
-# 1-2학기
- - 프로그래밍
+### 전산학기초
 
-# 2-1학기
- - 객체지향언어
- - 자료구조
+#### 개발환경
+<img src="https://img.shields.io/badge/anaconda-44A833?style=for-the-badge&logo=anaconda&logoColor=white">
 
-# 2-2학기
- - 데이터베이스
- - 자바
- - 파이썬프로그래밍
+#### 기술스택
+<img src="https://img.shields.io/badge/python-3776AB?style=for-the-badge&logo=python&logoColor=white">
 
-# 3-1학기
- - 모바일프로그래밍
- - 백준 자바 스터디
- - 인공지능
+### 프로그래밍기초
 
-# 3-2학기
- - 알고리즘
- - 웹서비스프로그래밍
- - 컴퓨터네트워크
+#### 개발환경
+<img src="https://img.shields.io/badge/python Idle-3776AB?style=for-the-badge&logo=python&logoColor=white">
+
+#### 기술스택
+<img src="https://img.shields.io/badge/python-3776AB?style=for-the-badge&logo=python&logoColor=white">
+
+
+# 1학년 2학기
+
+### 프로그래밍
+
+#### 개발환경
+<img src="https://img.shields.io/badge/visual studio-5C2D91?style=for-the-badge&logo=visualstudio&logoColor=white">
+
+#### 기술스택
+<img src="https://img.shields.io/badge/c-A8B9CC?style=for-the-badge&logo=c&logoColor=white">
+
+
+# 2학년 1학기
+
+### 객체지향언어
+
+#### 개발환경
+<img src="https://img.shields.io/badge/visual studio-5C2D91?style=for-the-badge&logo=visualstudio&logoColor=white">
+
+#### 기술스택
+<img src="https://img.shields.io/badge/c++-00599C?style=for-the-badge&logo=c%2B%2B&logoColor=white">
+
+### 자료구조
+
+#### 개발환경
+<img src="https://img.shields.io/badge/visual studio-5C2D91?style=for-the-badge&logo=visualstudio&logoColor=white">
+
+#### 기술스택
+<img src="https://img.shields.io/badge/c-A8B9CC?style=for-the-badge&logo=c&logoColor=white">
+
+
+# 2학년 2학기
+### 데이터베이스
+
+#### 개발환경
+<img src="https://img.shields.io/badge/mysql-4479A1?style=for-the-badge&logo=mysql&logoColor=white">
+
+#### 기술스택
+<img src="https://img.shields.io/badge/sql-4169E1?style=for-the-badge">
+
+### 자바
+
+#### 개발환경
+<img src="https://img.shields.io/badge/intellij idea-000080?style=for-the-badge&logo=intellijidea&logoColor=white">
+
+#### 기술스택
+<img src="https://img.shields.io/badge/java-007396?style=for-the-badge">
+
+
+### 파이썬프로그래밍
+
+#### 개발환경
+<img src="https://img.shields.io/badge/jupyter-F37626?style=for-the-badge&logo=jupyter&logoColor=white">
+
+#### 기술스택
+<img src="https://img.shields.io/badge/python-3776AB?style=for-the-badge&logo=python&logoColor=white">
+
+
+# 3학년 1학기
+
+### 모바일프로그래밍
+
+#### 개발환경
+<img src="https://img.shields.io/badge/android studio-34A853?style=for-the-badge&logo=androidstudio&logoColor=white">
+
+#### 기술스택
+<div style="display:flex; justify-content: center;">
+ <img src="https://img.shields.io/badge/kotlin-7F52FF?style=for-the-badge&logo=kotlin&logoColor=white">
+ <img src="https://img.shields.io/badge/firebase-FFCA28?style=for-the-badge&logo=firebase&logoColor=white">
+ <img src="https://img.shields.io/badge/git-F05032?style=for-the-badge&logo=git&logoColor=white">
+ <img src="https://img.shields.io/badge/notion-000000?style=for-the-badge&logo=notion&logoColor=white">
+</div>
+
+### 백준 자바 스터디
+
+#### 개발환경
+<img src="https://img.shields.io/badge/intellij idea-000080?style=for-the-badge&logo=intellijidea&logoColor=white">
+
+#### 기술스택
+<img src="https://img.shields.io/badge/java-007396?style=for-the-badge">
+<img src="https://img.shields.io/badge/notion-000000?style=for-the-badge&logo=notion&logoColor=white">
+
+### 인공지능
+
+#### 개발환경
+<img src="https://img.shields.io/badge/google colab-F9AB00?style=for-the-badge&logo=googlecolab&logoColor=white">
+
+#### 기술스택
+<img src="https://img.shields.io/badge/python-3776AB?style=for-the-badge&logo=python&logoColor=white">
+
+# 3학년 2학기
+
+### 알고리즘
+
+#### 개발환경
+<img src="https://img.shields.io/badge/visual studio-5C2D91?style=for-the-badge&logo=visualstudio&logoColor=white">
+
+#### 기술스택
+<img src="https://img.shields.io/badge/c-A8B9CC?style=for-the-badge&logo=c&logoColor=white">
+ 
+### 웹서비스프로그래밍
+
+#### 개발환경
+<img src="https://img.shields.io/badge/eclipse-2C2255?style=for-the-badge&logo=eclipse&logoColor=white">
+
+#### 기술스택
+<div style="display:flex; justify-content: center;">
+ <img src="https://img.shields.io/badge/jsp-CF4A0C?style=for-the-badge">
+ <img src="https://img.shields.io/badge/h2-4479A1?style=for-the-badge">
+ <img src="https://img.shields.io/badge/html5-E34F26?style=for-the-badge&logo=html5&logoColor=white">
+ <img src="https://img.shields.io/badge/css-1572B6?style=for-the-badge&logo=css3&logoColor=white">
+ <img src="https://img.shields.io/badge/javascript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black">
+ <img src="https://img.shields.io/badge/bootstrap-7952B3?style=for-the-badge&logo=bootstrap&logoColor=white">
+</div>
+
+### 컴퓨터네트워크
+
+#### 개발환경
+<img src="https://img.shields.io/badge/visual studio-5C2D91?style=for-the-badge&logo=visualstudio&logoColor=white">
+
+#### 기술스택
+<img src="https://img.shields.io/badge/c-A8B9CC?style=for-the-badge&logo=c&logoColor=white">
 
 ---
 
-## ✏️ 대학교 과제  
+## ✏️ 대학교 과제
  
 |    날짜    | 과목 | 주제 | 문제 | 결과 | 언어 |
 |:----------:|:---------:|:---------:|:---------:|:---------:|:---------:|
@@ -67,6 +182,7 @@
 | 2022.12.06 |파이썬프로그래밍|다중선형회귀3|[바로가기](https://github.com/jaehyun-0103/Assignments/tree/main/Assignments_4#%EB%8B%A4%EC%A4%91%EC%84%A0%ED%98%95%ED%9A%8C%EA%B7%803)|[바로가기](https://github.com/jaehyun-0103/Assignments/tree/main/Assignments_4/%ED%8C%8C%EC%9D%B4%EC%8D%AC%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%98%EB%B0%8D/%EB%8B%A4%EC%A4%91%EC%84%A0%ED%98%95%ED%9A%8C%EA%B7%803)|Python|
 | 2022.12.08 |파이썬프로그래밍|다중선형회귀4|[바로가기](https://github.com/jaehyun-0103/Assignments/tree/main/Assignments_4#%EB%8B%A4%EC%A4%91%EC%84%A0%ED%98%95%ED%9A%8C%EA%B7%804)|[바로가기](https://github.com/jaehyun-0103/Assignments/tree/main/Assignments_4/%ED%8C%8C%EC%9D%B4%EC%8D%AC%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%98%EB%B0%8D/%EB%8B%A4%EC%A4%91%EC%84%A0%ED%98%95%ED%9A%8C%EA%B7%804)|Python|
 | 2022.12.08 |파이썬프로그래밍|KNN|[바로가기](https://github.com/jaehyun-0103/Assignments/tree/main/Assignments_4#KNN)|[바로가기](https://github.com/jaehyun-0103/Assignments/tree/main/Assignments_4/%ED%8C%8C%EC%9D%B4%EC%8D%AC%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%98%EB%B0%8D/KNN)|Python|
+| 2023.03.21 ~ 2023.05.23 |백준 자바 스터디|백준|[바로가기](https://github.com/jaehyun-0103/Assignments/tree/main/Assignments_5#%EB%B0%B1%EC%A4%80)|[바로가기](https://github.com/jaehyun-0103/Assignments/tree/main/Assignments_5/%EB%B0%B1%EC%A4%80%20%EC%9E%90%EB%B0%94%20%EC%8A%A4%ED%84%B0%EB%94%94)|Java|
 | 2023.04.10 |모바일프로그래밍|계산기|[바로가기](https://github.com/jaehyun-0103/Assignments/tree/main/Assignments_5#%EA%B3%84%EC%82%B0%EA%B8%B0)|[바로가기](https://github.com/jaehyun-0103/Assignments/tree/main/Assignments_5/%EB%AA%A8%EB%B0%94%EC%9D%BC%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%98%EB%B0%8D/%EA%B3%84%EC%82%B0%EA%B8%B0)|Kotlin|
 | 2023.04.12 |인공지능|의사결정트리|[바로가기](https://github.com/jaehyun-0103/Assignments/tree/main/Assignments_5#%EC%9D%98%EC%82%AC%EA%B2%B0%EC%A0%95%ED%8A%B8%EB%A6%AC)|[바로가기](https://github.com/jaehyun-0103/Assignments/tree/main/Assignments_5/%EC%9D%B8%EA%B3%B5%EC%A7%80%EB%8A%A5/%EC%9D%98%EC%82%AC%EA%B2%B0%EC%A0%95%ED%8A%B8%EB%A6%AC)|Python|
 | 2023.04.24 |모바일프로그래밍|스톱워치|[바로가기](https://github.com/jaehyun-0103/Assignments/tree/main/Assignments_5#%EC%8A%A4%ED%86%B1%EC%9B%8C%EC%B9%98)|[바로가기](https://github.com/jaehyun-0103/Assignments/tree/main/Assignments_5/%EB%AA%A8%EB%B0%94%EC%9D%BC%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%98%EB%B0%8D/%EC%8A%A4%ED%86%B1%EC%9B%8C%EC%B9%98)|Kotlin|
