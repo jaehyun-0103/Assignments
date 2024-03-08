@@ -45,14 +45,14 @@
  
 ## 결과
 ### 탈출 가능
-<img src = "https://github.com/jaehyun-0103/Assignments/assets/80446951/994c87b3-f0c2-467a-8dc1-86fedc8b9f55.jpg" width="90%" height=90%>
+<img src = "https://github.com/jaehyun-0103/Assignments/assets/80446951/981a87d1-c861-4e9a-b8a4-0577905c43a4" width="90%" height=90%>
 
-<img src = "https://github.com/jaehyun-0103/Assignments_6/assets/80446951/ca566bd1-2cb4-46a3-b207-f6518527b2cd.jpg" width="90%" height=90%>
+<img src = "https://github.com/jaehyun-0103/Assignments/assets/80446951/fb9bff1e-5b85-4548-8fd0-63f6e3c75cb2" width="90%" height=90%>
 
 ### 탈출 불가능
-<img src = "https://github.com/jaehyun-0103/Assignments_6/assets/80446951/d48c8a54-b85c-446f-bb6f-daeb16bdc709.jpg" width="90%" height=90%>
+<img src = "https://github.com/jaehyun-0103/Assignments/assets/80446951/7ab4ebca-a4f7-4b7c-a915-8f6caf8ab70c" width="90%" height=90%>
 
-<img src = "https://github.com/jaehyun-0103/Assignments_6/assets/80446951/42733c8e-5ee0-4930-adf7-8bcbd06ffe35.jpg" width="90%" height=90%>
+<img src = "https://github.com/jaehyun-0103/Assignments/assets/80446951/d80b0419-a82a-4cf1-aef3-2df96e71df43" width="90%" height=90%>
 
 ---
 ---
@@ -83,50 +83,50 @@
 3. 감상평은 회원만 작성 가능
 
 ## 시나리오
-<img src = "https://github.com/jaehyun-0103/Assignments/assets/80446951/981a87d1-c861-4e9a-b8a4-0577905c43a4" width="85%" height=85%>
+<img src = "https://github.com/jaehyun-0103/Assignments/assets/80446951/f9e47388-a42c-46a0-901a-af6061d3b53" width="85%" height=85%>
 
 ## ERD
-<img src = "https://github.com/jaehyun-0103/Assignments_6/assets/80446951/51d74b90-61b8-445a-8729-b9e9cd2c3377.jpg" width="100%" height=100%>
+<img src = "https://github.com/jaehyun-0103/Assignments/assets/80446951/aee0f03f-afe2-438c-9830-b7993426e059" width="100%" height=100%>
 
 ## MVC
-<img src = "https://github.com/jaehyun-0103/Assignments_6/assets/80446951/57d83d42-6be0-4db7-8312-a2f3e0467a12.jpg" width="80%" height=80%>
+<img src = "https://github.com/jaehyun-0103/Assignments/assets/80446951/9774d8f8-2cc5-4950-b9f3-f47ccf6a2e13" width="80%" height=80%>
 
 ## 뷰
 - register 페이지 : 회원가입 가능
 
-    <img src = "https://github.com/jaehyun-0103/Assignments_6/assets/80446951/313305b6-fca8-4ddf-b443-0cf8ff4aa402.jpg" width="35%" height=35%>
+    <img src = "https://github.com/jaehyun-0103/Assignments/assets/80446951/e9143b2c-f774-46b8-ab77-67884df7d8d0" width="35%" height=35%>
 
 - login 페이지 : 로그인 가능
 
-    <img src = "https://github.com/jaehyun-0103/Assignments_6/assets/80446951/2c1e4f9f-2e81-45fe-aa21-ea9c2e3bbfb3.jpg" width="35%" height=35%>
+    <img src = "https://github.com/jaehyun-0103/Assignments/assets/80446951/e59c63d0-f369-4170-b717-f21bd970282f" width="35%" height=35%>
 
 - moviesList 페이지 : 영화 목록 확인 가능
 
-    <img src = "https://github.com/jaehyun-0103/Assignments_6/assets/80446951/7240c0a7-d523-4764-aba0-9c53e92ab961.jpg" width="80%" height=80%>
+    <img src = "https://github.com/jaehyun-0103/Assignments/assets/80446951/4b538e3c-1eeb-44bc-b48e-87b30e2d5d91" width="80%" height=80%>
 
 - logout 페이지 : 로그아웃 가능
 
-    <img src = "https://github.com/jaehyun-0103/Assignments_6/assets/80446951/5fa42705-0fe2-4787-b59f-06b8ecf3059a.jpg" width="20%" height=20%>
+    <img src = "https://github.com/jaehyun-0103/Assignments/assets/80446951/71f5ddc6-1b9a-40cd-b519-b3ca9a403a85" width="20%" height=20%>
 
 - profile 페이지 : 회원 정보 수정 및 작성한 감상평 목록 확인 가능
 
-    <img src = "https://github.com/jaehyun-0103/Assignments_6/assets/80446951/24d97422-e002-4955-b70f-2e8c102e0bff.jpg" width="45%" height=45%>
+    <img src = "https://github.com/jaehyun-0103/Assignments/assets/80446951/b364e29a-caf1-4c41-b57d-23cbbf131984" width="45%" height=45%>
 
 - searchResult 페이지 : 검색 결과 확인 가능
 
-    <img src = "https://github.com/jaehyun-0103/Assignments_6/assets/80446951/91cde449-3783-4795-9cfc-3f5abee1f4c6.jpg" width="85%" height=85%>
+    <img src = "https://github.com/jaehyun-0103/Assignments/assets/80446951/0fa75e4c-57e2-4e53-a3b4-04a26b4d924e" width="85%" height=85%>
 
 - search 페이지 : 영화 상세정보 확인 가능
 
-    <img src = "https://github.com/jaehyun-0103/Assignments_6/assets/80446951/b7cc429d-828c-4832-9990-1ef604393959.jpg" width="85%" height=85%>
+    <img src = "https://github.com/jaehyun-0103/Assignments/assets/80446951/990badba-bdd5-4a1b-be1b-0d69a6dc6a1f" width="85%" height=85%>
 
 - writeReview 페이지 : 감상평 작성 가능
 
-    <img src = "https://github.com/jaehyun-0103/Assignments_6/assets/80446951/7dc25a1b-f916-463d-b687-3b0e40202364.jpg" width="85%" height=85%>
+    <img src = "https://github.com/jaehyun-0103/Assignments/assets/80446951/a7a98473-e912-461b-aba3-2a36311be6bc" width="85%" height=85%>
 
 - reviewList 페이지 : 감상평 목록 확인 가능
 
-    <img src = "https://github.com/jaehyun-0103/Assignments_6/assets/80446951/09d1519a-3e4c-436f-8d8a-fb5386d5930d.jpg" width="85%" height=85%>
+    <img src = "https://github.com/jaehyun-0103/Assignments/assets/80446951/aa90e24d-f421-4bc0-b965-9594e40928e0" width="85%" height=85%>
 
 ---
 ---
@@ -198,8 +198,8 @@
 
 ## 결과
 
-<img src = "https://github.com/jaehyun-0103/Assignments_6/assets/80446951/bb830ef4-d6d1-470e-96c9-00f704eb3232.jpg" width="60%" height=60%>
+<img src = "https://github.com/jaehyun-0103/Assignments/assets/80446951/aa90e24d-f421-4bc0-b965-9594e40928e0" width="60%" height=60%>
 
-<img src = "https://github.com/jaehyun-0103/Assignments_6/assets/80446951/32dcebba-c9e4-4487-aa5a-e718d4d9e82e.jpg" width="60%" height=60%>
+<img src = "https://github.com/jaehyun-0103/Assignments/assets/80446951/c8b6cfa1-0344-4fe5-bb9d-7a5cedd3c1a2" width="60%" height=60%>
 
 ---
