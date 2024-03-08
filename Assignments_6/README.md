@@ -114,19 +114,19 @@
 
 - searchResult 페이지 : 검색 결과 확인 가능
 
-    <img src = "https://github.com/jaehyun-0103/Assignments/assets/80446951/0fa75e4c-57e2-4e53-a3b4-04a26b4d924e" width="85%" height=85%>
+    <img src = "https://github.com/jaehyun-0103/Assignments/assets/80446951/0fa75e4c-57e2-4e53-a3b4-04a26b4d924e" width="90%" height=85%>
 
 - search 페이지 : 영화 상세정보 확인 가능
 
-    <img src = "https://github.com/jaehyun-0103/Assignments/assets/80446951/990badba-bdd5-4a1b-be1b-0d69a6dc6a1f" width="85%" height=85%>
+    <img src = "https://github.com/jaehyun-0103/Assignments/assets/80446951/990badba-bdd5-4a1b-be1b-0d69a6dc6a1f" width="90%" height=85%>
 
 - writeReview 페이지 : 감상평 작성 가능
 
-    <img src = "https://github.com/jaehyun-0103/Assignments/assets/80446951/a7a98473-e912-461b-aba3-2a36311be6bc" width="85%" height=85%>
+    <img src = "https://github.com/jaehyun-0103/Assignments/assets/80446951/a7a98473-e912-461b-aba3-2a36311be6bc" width="90%" height=85%>
 
 - reviewList 페이지 : 감상평 목록 확인 가능
 
-    <img src = "https://github.com/jaehyun-0103/Assignments/assets/80446951/aa90e24d-f421-4bc0-b965-9594e40928e0" width="85%" height=85%>
+    <img src = "https://github.com/jaehyun-0103/Assignments/assets/80446951/aa90e24d-f421-4bc0-b965-9594e40928e0" width="90%" height=85%>
 
 ---
 ---
