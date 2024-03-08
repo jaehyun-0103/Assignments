@@ -83,7 +83,7 @@
 3. 감상평은 회원만 작성 가능
 
 ## 시나리오
-<img src = "https://github.com/jaehyun-0103/Assignments/assets/80446951/f9e47388-a42c-46a0-901a-af6061d3b53" width="85%" height=85%>
+<img src = "https://github.com/jaehyun-0103/Assignments/assets/80446951/1ea36b5b-db03-4924-824b-dcaf6c3a65c9" width="85%" height=85%>
 
 ## ERD
 <img src = "https://github.com/jaehyun-0103/Assignments/assets/80446951/aee0f03f-afe2-438c-9830-b7993426e059" width="100%" height=100%>
