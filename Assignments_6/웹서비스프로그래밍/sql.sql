@@ -1,3 +1,4 @@
+-- 테이블 생성
 CREATE TABLE member (
     member_id INT PRIMARY KEY AUTO_INCREMENT,
     member_password VARCHAR(255) NOT NULL,
@@ -28,6 +29,8 @@ CREATE TABLE review (
     FOREIGN KEY (movie_id) REFERENCES movie(movie_id)
 );
 
+
+-- 데이터 삽입
 insert into member(member_password, member_nickname, member_name) values('ans1234', 'gal', 'ans1111');
 insert into member(member_password, member_nickname, member_name) values('dnjs1234', 'won', 'dnjs2222');
 insert into member(member_password, member_nickname, member_name) values('db1234', 'yu', 'yu3333');
