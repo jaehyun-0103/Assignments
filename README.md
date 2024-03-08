@@ -32,8 +32,8 @@
  
 |    날짜    | 과목 | 주제 | 문제 | 결과 | 언어 |
 |:----------:|:---------:|:---------:|:---------:|:---------:|:---------:|
-| 2021.06.07 |프로그래밍기초|클래스 상속|[바로가기](https://github.com/jaehyun-0103/Assignments/tree/main/Assignments_1#%EA%B3%BC%EC%A0%9C1)|[바로가기](https://github.com/jaehyun-0103/Assignments/tree/main/Assignments_1/%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%98%EB%B0%8D%EA%B8%B0%EC%B4%88)|python|
-| 2021.06.18 |전산학기초|자판기|[바로가기](https://github.com/jaehyun-0103/Assignments/tree/main/Assignments_1#%EC%9E%90%ED%8C%90%EA%B8%B0)|[바로가기](https://github.com/jaehyun-0103/Assignments/tree/main/Assignments_1/%EC%A0%84%EC%82%B0%ED%95%99%EA%B8%B0%EC%B4%88)|python|
+| 2021.06.07 |프로그래밍기초|클래스 상속|[바로가기](https://github.com/jaehyun-0103/Assignments/tree/main/Assignments_1#%EA%B3%BC%EC%A0%9C1)|[바로가기](https://github.com/jaehyun-0103/Assignments/tree/main/Assignments_1/%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%98%EB%B0%8D%EA%B8%B0%EC%B4%88)|Python|
+| 2021.06.18 |전산학기초|자판기|[바로가기](https://github.com/jaehyun-0103/Assignments/tree/main/Assignments_1#%EC%9E%90%ED%8C%90%EA%B8%B0)|[바로가기](https://github.com/jaehyun-0103/Assignments/tree/main/Assignments_1/%EC%A0%84%EC%82%B0%ED%95%99%EA%B8%B0%EC%B4%88)|Python|
 | 2021.09.27 |프로그래밍|조건문|[바로가기](https://github.com/jaehyun-0103/Assignments/tree/main/Assignments_2#%EC%A1%B0%EA%B1%B4%EB%AC%B8)|[바로가기](https://github.com/jaehyun-0103/Assignments/tree/main/Assignments_2/%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%98%EB%B0%8D/%EC%A1%B0%EA%B1%B4%EB%AC%B8)|C|
 | 2021.09.27 |프로그래밍|반복문|[바로가기](https://github.com/jaehyun-0103/Assignments/tree/main/Assignments_2#%EB%B0%98%EB%B3%B5%EB%AC%B8)|[바로가기](https://github.com/jaehyun-0103/Assignments/tree/main/Assignments_2/%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%98%EB%B0%8D/%EB%B0%98%EB%B3%B5%EB%AC%B8)|C|
 | 2021.10.03 |프로그래밍|함수 사용과 변수의 수명|[바로가기](https://github.com/jaehyun-0103/Assignments/tree/main/Assignments_2#%ED%95%A8%EC%88%98-%EC%82%AC%EC%9A%A9%EA%B3%BC-%EB%B3%80%EC%88%98%EC%9D%98-%EC%88%98%EB%AA%85)|[바로가기](https://github.com/jaehyun-0103/Assignments/tree/main/Assignments_2/%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%98%EB%B0%8D/%ED%95%A8%EC%88%98%20%EC%82%AC%EC%9A%A9%EA%B3%BC%20%EB%B3%80%EC%88%98%EC%9D%98%20%EC%88%98%EB%AA%85)|C|
