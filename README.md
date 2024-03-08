@@ -21,7 +21,7 @@
  - 백준 자바 스터디 [[바로가기]](https://github.com/jaehyun-0103/Assignments_5/tree/main/%EB%B0%B1%EC%A4%80%20%EC%9E%90%EB%B0%94%20%EC%8A%A4%ED%84%B0%EB%94%94)
  - 인공지능 [[바로가기]](https://github.com/jaehyun-0103/Assignments_5/tree/main/%EC%9D%B8%EA%B3%B5%EC%A7%80%EB%8A%A5)
 
-# 3-1학기
+# 3-2학기
  - 알고리즘 [[바로가기]](https://github.com/jaehyun-0103/Assignments_6/tree/main/%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%98)
  - 웹서비스프로그래밍 [[바로가기]](https://github.com/jaehyun-0103/Assignments_6/tree/main/%EC%9B%B9%EC%84%9C%EB%B9%84%EC%8A%A4%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%98%EB%B0%8D)
  - 컴퓨터네트워크 [[바로가기]](https://github.com/jaehyun-0103/Assignments_6/tree/main/%EC%BB%B4%ED%93%A8%ED%84%B0%EB%84%A4%ED%8A%B8%EC%9B%8C%ED%81%AC)
