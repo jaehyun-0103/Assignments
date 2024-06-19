@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+    PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+    "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="MembershipMapper">
+	<!-- 마이페이지 -->
+	<select id="selectMembership">
+		SELECT c.*
+		FROM Clubs_free c
+		INNER JOIN
+		Memberships_free m ON c.clubId = m.clubId
+		WHERE m.memberId =
+		#{memberId}
+	</select>
+
+	<!-- 소모임 가입 -->
+	<insert id="insertMembership">
+		INSERT INTO Memberships_free (memberId, clubId)
+		VALUES (#{memberId}, #{clubId})
+	</insert>
+
+	<!-- 소모임 탈퇴 -->
+	<delete id="deleteMembership">
+		DELETE FROM Memberships_free
+		WHERE memberId =
+		#{memberId} AND clubId = #{clubId}
+	</delete>
+</mapper>
