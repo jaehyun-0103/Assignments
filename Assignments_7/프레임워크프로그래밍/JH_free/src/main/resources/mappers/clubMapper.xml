@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+    PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+    "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="ClubMapper">
+	<!-- 소모임 내용 -->
+	<select id="selectClubById">
+		SELECT * FROM Clubs_free WHERE clubId = #{clubId}
+	</select>
+
+	<!-- 소모임 생성 -->
+	<insert id="insertClub">
+		INSERT INTO Clubs_free (clubName, description,
+		category, capacity,
+		location, meetingDate, venue, leaderId)
+		VALUES
+		(#{clubName}, #{description}, #{category}, #{capacity},
+		#{location},
+		#{meetingDate}, #{venue}, #{leaderId})
+	</insert>
+
+	<!-- 소모임 삭제 -->
+	<delete id="deleteClub">
+		DELETE FROM Clubs_free WHERE clubId =
+		#{clubId}
+	</delete>
+
+	<!-- 소모임 목록 -->
+	<select id="selectAllClubs" resultType="map">
+		SELECT clubId,
+		clubName,
+		capacity,
+		(SELECT COUNT(*) + 1 FROM Memberships_free
+		WHERE clubId =
+		c.clubId) AS
+		currentMembers
+		FROM Clubs_free c
+	</select>
+
+	<!-- 소모임 정보 -->
+	<select id="selectContent" resultType="map">
+		SELECT
+		c.clubId,
+		c.clubName,
+		c.description,
+		c.category,
+		c.capacity,
+		c.location,
+		c.meetingDate,
+		c.venue,
+		c.leaderId,
+		m.memberName AS leaderName,
+		GROUP_CONCAT(members.memberName) AS memberNames,
+		GROUP_CONCAT(members.memberId) AS memberIds,
+		(SELECT COUNT(*) + 1 FROM Memberships_free WHERE clubId = c.clubId) AS currentMembers
+		FROM
+		Clubs_free c
+		JOIN
+		Members_free m ON c.leaderId = m.memberId
+		LEFT JOIN
+		Memberships_free
+		memberships ON c.clubId = memberships.clubId
+		LEFT JOIN
+		Members_free
+		members ON memberships.memberId = members.memberId
+		WHERE
+		c.clubId =
+		#{clubId};
+	</select>
+</mapper>
