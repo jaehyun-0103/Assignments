@@ -46,6 +46,10 @@
 
 ### 👴 4학년 1학기
 
+|        | 개발환경 | 기술 스택 |
+|:----------:|:---------|:---------|
+|프레임워크프로그래밍|<img src="https://img.shields.io/badge/eclipse-2C2255?style=for-the-badge&logo=eclipse&logoColor=white">|<img src="https://img.shields.io/badge/spring-34A853?style=for-the-badge&logo=spring&logoColor=white">|
+
 ---
 
 # ✏️ 과제 리스트
@@ -98,5 +102,8 @@
 | 2023.11.20 ~ 2023.12.01 |컴퓨터네트워크|패킷 캡처|[바로가기](https://github.com/jaehyun-0103/Assignments/tree/main/Assignments_6?tab=readme-ov-file#%ED%8C%A8%ED%82%B7-%EC%BA%A1%EC%B2%98)|[바로가기](https://github.com/jaehyun-0103/Assignments/tree/main/Assignments_6/%EC%BB%B4%ED%93%A8%ED%84%B0%EB%84%A4%ED%8A%B8%EC%9B%8C%ED%81%AC)|C|
 | 2023.12.04 ~ 2023.12.17 |웹서비스프로그래밍|영화 리뷰 사이트|[바로가기](https://github.com/jaehyun-0103/Assignments/tree/main/Assignments_6?tab=readme-ov-file#%EC%98%81%EC%83%81-%EB%A6%AC%EB%B7%B0-%EC%82%AC%EC%9D%B4%ED%8A%B8)|[바로가기](https://github.com/jaehyun-0103/Assignments/tree/main/Assignments_6/%EC%9B%B9%EC%84%9C%EB%B9%84%EC%8A%A4%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%98%EB%B0%8D)|JSP|
 | 2023.12.18 ~ 2023.12.22 |알고리즘|탈출 문제|[바로가기](https://github.com/jaehyun-0103/Assignments/tree/main/Assignments_6?tab=readme-ov-file#%ED%83%88%EC%B6%9C-%EB%AC%B8%EC%A0%9C)|[바로가기](https://github.com/jaehyun-0103/Assignments/tree/main/Assignments_6/%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%98)|C|
+| 2024.04.10 |프레임워크프로그래밍|DI + JDBC|[바로가기](https://github.com/jaehyun-0103/Assignments/blob/main/Assignments_7/README.md#DI--JDBC)|[바로가기](https://github.com/jaehyun-0103/Assignments/tree/main/Assignments_7/%ED%94%84%EB%A0%88%EC%9E%84%EC%9B%8C%ED%81%AC%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%98%EB%B0%8D/jaehyun_di)|Spring|
+| 2024.05.09 |프레임워크프로그래밍|MVC + MyBatis|[바로가기](https://github.com/jaehyun-0103/Assignments/blob/main/Assignments_7/README.md#MVC--MyBatis)|[바로가기](https://github.com/jaehyun-0103/Assignments/tree/main/Assignments_7/%ED%94%84%EB%A0%88%EC%9E%84%EC%9B%8C%ED%81%AC%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%98%EB%B0%8D/JH_batis)|Spring|
+| 2024.05.22 ~ 2024.05.28 |프레임워크프로그래밍|AOP + Transaction|[바로가기](https://github.com/jaehyun-0103/Assignments/blob/main/Assignments_7/README.md#AOP--Transaction)|[바로가기](https://github.com/jaehyun-0103/Assignments/tree/main/Assignments_7/%ED%94%84%EB%A0%88%EC%9E%84%EC%9B%8C%ED%81%AC%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%98%EB%B0%8D/JH_free)|Spring|
 
 ---
