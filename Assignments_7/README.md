@@ -61,7 +61,7 @@
 # 모임 모집 사이트
 
 ## ERD
-<img src = "https://github.com/jaehyun-0103/Assignments/assets/80446951/28364d0b-c760-4afb-98d4-2221107fcce7" width="90%" height=90%>
+<img src = "https://github.com/jaehyun-0103/Assignments/assets/80446951/28364d0b-c760-4afb-98d4-2221107fcce7" width="70%" height=90%>
 
 ## 기능 설계
 
