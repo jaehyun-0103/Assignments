@@ -24,7 +24,7 @@
 
 |        | 개발환경 | 기술 스택 |
 |:----------:|:---------|:---------|
-|데이터베이스|<img src="https://img.shields.io/badge/mysql-4479A1?style=for-the-badge&logo=mysql&logoColor=white">|<img src="https://img.shields.io/badge/sql-4169E1?style=for-the-badge">|
+|데이터베이스|<img src="https://img.shields.io/badge/MySQL Workbench-4169E1?style=for-the-badge">|<img src="https://img.shields.io/badge/mysql-4479A1?style=for-the-badge&logo=mysql&logoColor=white">|
 |자바|<img src="https://img.shields.io/badge/intellij idea-000080?style=for-the-badge&logo=intellijidea&logoColor=white">|<img src="https://img.shields.io/badge/java-007396?style=for-the-badge">|
 |파이썬프로그래밍|<img src="https://img.shields.io/badge/jupyter-F37626?style=for-the-badge&logo=jupyter&logoColor=white">|<img src="https://img.shields.io/badge/python-3776AB?style=for-the-badge&logo=python&logoColor=white">|
 
@@ -41,14 +41,14 @@
 |        | 개발환경 | 기술 스택 |
 |:----------:|:---------|:---------|
 |알고리즘|<img src="https://img.shields.io/badge/visual studio-5C2D91?style=for-the-badge&logo=visualstudio&logoColor=white">|<img src="https://img.shields.io/badge/c-A8B9CC?style=for-the-badge&logo=c&logoColor=white">|
-|웹서비스프로그래밍|<img src="https://img.shields.io/badge/eclipse-2C2255?style=for-the-badge&logo=eclipse&logoColor=white">| <img src="https://img.shields.io/badge/jsp-CF4A0C?style=for-the-badge"> <img src="https://img.shields.io/badge/h2-4479A1?style=for-the-badge"> <img src="https://img.shields.io/badge/html5-E34F26?style=for-the-badge&logo=html5&logoColor=white"><img src="https://img.shields.io/badge/css-1572B6?style=for-the-badge&logo=css3&logoColor=white"> <br> <img src="https://img.shields.io/badge/javascript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black"> <img src="https://img.shields.io/badge/bootstrap-7952B3?style=for-the-badge&logo=bootstrap&logoColor=white">|
+|웹서비스프로그래밍|<img src="https://img.shields.io/badge/eclipse-2C2255?style=for-the-badge&logo=eclipse&logoColor=white">| <img src="https://img.shields.io/badge/jsp-CF4A0C?style=for-the-badge"> <img src="https://img.shields.io/badge/h2-4479A1?style=for-the-badge"> <img src="https://img.shields.io/badge/html5-E34F26?style=for-the-badge&logo=html5&logoColor=white"> <img src="https://img.shields.io/badge/css-1572B6?style=for-the-badge&logo=css3&logoColor=white"> <br> <img src="https://img.shields.io/badge/javascript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black"> <img src="https://img.shields.io/badge/bootstrap-7952B3?style=for-the-badge&logo=bootstrap&logoColor=white">|
 |컴퓨터네트워크|<img src="https://img.shields.io/badge/visual studio-5C2D91?style=for-the-badge&logo=visualstudio&logoColor=white">|<img src="https://img.shields.io/badge/c-A8B9CC?style=for-the-badge&logo=c&logoColor=white">|
 
 ### 👴 4학년 1학기
 
 |        | 개발환경 | 기술 스택 |
 |:----------:|:---------|:---------|
-|프레임워크프로그래밍|<img src="https://img.shields.io/badge/eclipse-2C2255?style=for-the-badge&logo=eclipse&logoColor=white">|<img src="https://img.shields.io/badge/spring-34A853?style=for-the-badge&logo=spring&logoColor=white">|
+|프레임워크프로그래밍|<img src="https://img.shields.io/badge/eclipse-2C2255?style=for-the-badge&logo=eclipse&logoColor=white">|<img src="https://img.shields.io/badge/spring-34A853?style=for-the-badge&logo=spring&logoColor=white"> <img src="https://img.shields.io/badge/mysql-4479A1?style=for-the-badge&logo=mysql&logoColor=white"> <img src="https://img.shields.io/badge/jsp-CF4A0C?style=for-the-badge"> <br> <img src="https://img.shields.io/badge/html5-E34F26?style=for-the-badge&logo=html5&logoColor=white"> <img src="https://img.shields.io/badge/css-1572B6?style=for-the-badge&logo=css3&logoColor=white"> <img src="https://img.shields.io/badge/javascript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black"> |
 
 ---
 
